@@ -5,19 +5,28 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/FlutterUnityIntegration/Demo/Scenes/SampleScene.unity
     guid: 1de23c438491149ecacfae4362bfe5d4
-  - enabled: 1
+  - enabled: 0
     path: Assets/FlutterUnityIntegration/Demo/Scenes/scene_2.unity
     guid: 78e45f16305ad48beb12bee6b4f6e23c
-  - enabled: 1
+  - enabled: 0
     path: Assets/FlutterUnityIntegration/Demo/Scenes/NativeScene.unity
     guid: 93c501e08eb4d4ac2a924b592f00449b
+  - enabled: 1
+    path: Assets/Samples/Semantics/Scenes/SemanticsDisplay.unity
+    guid: b43e677e36f234310adf6553404abbe5
   m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: e090105dc8634453da5c485a8cc96c65,
+      type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 8f5889365231748418ef46f4020bd9dd,
       type: 2}
     UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 5719f42c4a6f041e8aa9588ee2976b7c,
       type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 15ba525b253e14181b22b861963492e1,
+      type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1356279c9d721447b97eebba41ddf775,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 340e71f1b15cb40a0873af8b427043cc,
       type: 2}

@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using FlutterUnityIntegration;
 using UnityEngine;
+using Niantic.Lightship.AR;
 
 public class GameManager : MonoBehaviour
 {

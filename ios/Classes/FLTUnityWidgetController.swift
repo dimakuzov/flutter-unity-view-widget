@@ -6,7 +6,7 @@
 //
 
 import Foundation
-import UnityFramework
+//import UnityFramework
 
 // Defines unity controllable from Flutter.
 public class FLTUnityWidgetController: NSObject, FLTUnityOptionsSink, FlutterPlatformView {
