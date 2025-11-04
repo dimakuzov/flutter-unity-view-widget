@@ -1,0 +1,130 @@
+{
+    "mapContent": 
+    [
+        {
+            "id":"<anchorId>",
+
+            "context":
+            {
+                "experienceId": "<Generated Unique experience ID>",
+                "experienceName": "<Experience Name>",
+                "activityCollectionId": "<Generated activity collection ID>",
+                "activityCollectionName": "<Activity collectionname>"
+            },
+
+            "pose":
+            {
+                "position":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                },
+                "rotation":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0",
+                    "w": "0" 
+                }
+            },
+
+            // "location":
+            // {
+            //     "latitude": "",
+            //     "longitude": "",
+            //     "altitude": ""
+            // },
+
+            // "thumbnail": "<thumbnail of the whole anchor>",
+
+            "activityInfoList":
+            [
+                {
+                    "activityId": "<Generated Unity Activity ID>",
+                    "activityName": "<Human-friendly activity name>",
+                    "activityType": "PoI",
+
+                    "thumbnail": "<thumbnail path>",
+        
+                    "activitySpecific": 
+                    {
+                        "Key": "PoIDescription", "Value": "This PoI is ..."
+                    }
+                }
+            ]
+            
+        },
+        {
+            "anchorId":"<anchorId>",
+
+            "context":
+            {
+                "experienceId": "<Generated Unique experience ID>",
+                "experienceName": "<Experience Name>",
+                "activityCollectionId": "<Generated activity collection ID>",
+                "activityCollectionName": "<Activity collectionname>"
+            },
+            
+            "pose":
+            {
+                "position":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                },
+                "rotation":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0",
+                    "w": "0" 
+                }
+            },
+
+            // "location":
+            // {
+            //     "latitude": "",
+            //     "longitude": "",
+            //     "altitude": ""
+            // },
+
+            // "thumbnail": "<thumbnail of the whole anchor>",
+
+            "activityInfoList":
+            [
+                {
+                    "activityId": "<Generated Unity Activity ID>",
+                    "activityName": "<Human-friendly activity name>",
+                    "activityType": "Trivia",
+
+                    "thumbnail": "<thumbnail path>",
+
+                    "activitySpecific": 
+                    {
+                        "Key": "TriviaQuestion", "Value": "Trivia question 1",
+                        "Key": "TriviaAnwser", "Value": "Trivia anwser 1"
+                    }
+                },
+                {
+                    "activityId": "<Generated Unity Activity ID>",
+                    "activityName": "<Human-friendly activity name>",
+                    "activityType": "Video",
+
+                    "thumbnail": "<thumbnail path>",
+
+                    "activitySpecific": 
+                    {
+                        "Key": "VideoName", "Value": "Seattle art museum guide",
+                        "Key": "VideoPath", "Value": "http://aaa.com/somevideo.mp4"
+                    }
+                }
+            ]
+        }
+    ]
+}
+
+
+
+

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SceneLoader.unity
+    guid: 2b50f48f1e7f5474cbda56071ce5310e
+  - enabled: 0
+    path: Assets/Scenes/BeeBotScene.unity
+    guid: cfa4b0c3cedbeab4f85acf7193211174
+  - enabled: 0
+    path: Assets/Scenes/MainScene.unity
+    guid: 61f8bb8a5567840a3bd0bb38a767ba4b
+  - enabled: 1
+    path: Assets/Scenes/ARDKScene.unity
+    guid: 52c3c04507b6e45e19f78a571337c327
+  - enabled: 0
+    path: Assets/Scenes/ARDKSceneBAK.unity
+    guid: f5e1b874a1e6b46eeb809828189900e9
+  - enabled: 0
+    path: Assets/ARLocation/Mapbox Routes/Scenes/Mapbox Route Basic.unity
+    guid: 4e05641e1f17b441b8d167fa5f8a308d
+  - enabled: 0
+    path: Assets/ARDKExamples/RemoteAuthoring/RemoteAuthoring.unity
+    guid: b42b611c6ac6c4128ae1090ed0ec3121
+  - enabled: 0
+    path: Assets/ARDKExamples/WayspotAnchors/WayspotAnchors.unity
+    guid: 3477628c2e7624b9386c43bf7c008d15
+  m_configObjects:
+    Niantic.Lightship.AR.LightshipSettings: {fileID: 11400000, guid: c2b16c31ed269401fa120f6e60e7e57d,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: e38dfa432c68a418d9b5794498ffdd72,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 96ce3d9f4ded64d04bf9bbceec80b4fd,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 00b44f2e098584d4b8081d63b0381c90,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6d45b36faa7d24a798cf1405c89c6e80,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e417d083f7b5b499aa69ff96bf30208c,
+      type: 2}

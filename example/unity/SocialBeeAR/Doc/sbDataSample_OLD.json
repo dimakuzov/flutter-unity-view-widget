@@ -1,0 +1,131 @@
+{
+    "sbActivityCollection": 
+    [
+        {
+            "experienceId": "<Generated Unique experience ID>",
+            "activityCollectionId": "<Generated activity collection ID>",
+
+            "activityId": "<Generated Unity Activity ID>",
+            "activityName": "<Human-friendly activity name>",
+            "activityType": "PoI",
+
+            "thumbnail": "<thumbnail path>",
+
+            "location":
+            {
+                "latitude": "",
+                "longitude": "",
+                "altitude": ""
+            },
+
+            "pose":
+            {
+                "position":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                },
+                "rotation":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0",
+                    "w": "0" 
+                }
+            },
+                
+            "activitySpecific": 
+            {
+                "Key": "PoIDescription", "Value": "This PoI is ..."
+            }
+        },
+
+        {
+            "experienceId": "<Generated Unique experience ID>",
+            "activityCollectionId": "<Generated activity collection ID>",
+
+            "activityId": "<Generated Unity Activity ID>",
+            "activityName": "<Human-friendly activity name>",
+            "activityType": "Trivia",
+
+            "thumbnail": "<thumbnail path>",
+
+            "location":
+            {
+                "latitude": "",
+                "longitude": "",
+                "altitude": ""
+            },
+
+            "pose":
+            {
+                "position":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                },
+                "rotation":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0",
+                    "w": "0" 
+                }
+            },
+
+            "activitySpecific": 
+            {
+                "Key": "TriviaQuestion", "Value": "Trivia question 1",
+                "Key": "TriviaAnwser", "Value": "Trivia anwser 1"
+            }
+        },
+
+        {
+            "experienceId": "<Generated Unique experience ID>",
+            "activityCollectionId": "<Generated activity collection ID>",
+
+            "activityId": "<Generated Unity Activity ID>",
+            "activityName": "<Human-friendly activity name>",
+            "activityType": "Video",
+
+            "thumbnail": "<thumbnail path>",
+
+            "location":
+            {
+                "latitude": "",
+                "longitude": "",
+                "altitude": ""
+            },
+
+            "pose":
+            {
+                "position":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0"
+                },
+                "rotation":
+                {
+                    "x": "0",
+                    "y": "0",
+                    "z": "0",
+                    "w": "0" 
+                }
+            },
+
+            "activitySpecific": 
+            {
+                "Key": "VideoName", "Value": "Seattle art museum guide",
+                "Key": "VideoPath", "Value": "http://aaa.com/somevideo.mp4"
+            }
+        }
+
+    ]
+}
+
+
+
+
