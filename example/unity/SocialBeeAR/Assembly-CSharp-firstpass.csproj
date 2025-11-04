@@ -307,12 +307,6 @@
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.nianticlabs.lightship@1f2596a5cd/Runtime/Telemetry/dep/Niantic.Protobuf.3.25.3.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
     </Reference>
@@ -334,29 +328,14 @@
     <Reference Include="DemiLib">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
     </Reference>
-    <Reference Include="MapboxAccountsUnity">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.Json">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Serilog.Sinks.File">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Serilog.Sinks.File.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.IO.Compression">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
     </Reference>
     <Reference Include="Elasticsearch.Net">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Elasticsearch.Net.dll</HintPath>
     </Reference>
     <Reference Include="DOTween">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="Niantic.Protobuf">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.nianticlabs.lightship@1f2596a5cd/Runtime/Telemetry/dep/Niantic.Protobuf.3.25.3.0/Niantic.Protobuf.dll</HintPath>

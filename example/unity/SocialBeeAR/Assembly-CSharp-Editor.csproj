@@ -45,135 +45,42 @@
     <Analyzer Include="/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_GeoCoordinateBounds.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Utils.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Map.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/MaterialModifierEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/RangeAroundTransformTileProviderOptionsDrawer.cs" />
     <Compile Include="Assets/Devion Games/Module Manager/Editor/Changelog.cs" />
     <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntries.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/VectorLayerPropertiesDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/LayerPerformanceOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/FeatureSectionMultiColumnHeader.cs" />
     <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/LogEntry.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/LineGeometryOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/MapboxConfigurationWindow.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/StyleOptionsDrawer.cs" />
     <Compile Include="Assets/Editor/IosAppendExceptionFix.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_PolylineUtils.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/VectorSubLayerTreeView.cs" />
     <Compile Include="Assets/ARLocation/Mapbox Routes/Editor/CustomRouteInspector.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/MapImageFactoryEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ImageryLayerPropertiesDrawer.cs" />
     <Compile Include="Assets/Devion Games/Module Manager/Editor/JsonHelper.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_FileSource.cs" />
-    <Compile Include="Assets/Mapbox/Core/probe-extractor-cs/Tests/Editor/MapboxUnitTests_ProbeExtractorCs.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/FactoryEditor.cs" />
     <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/Enums.cs" />
     <Compile Include="Assets/Devion Games/Curvy Text/Scripts/Editor/TransformTool.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MapOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MapPlacementOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_BboxToGeoCoordinateBoundsConverter.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_PolylineToGeoCoordinateListConverter.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/EditorHelper.cs" />
     <Compile Include="Assets/Devion Games/Module Manager/Editor/ModuleManagerWindow.cs" />
     <Compile Include="Assets/PrimitivePlus/Editor/PrimitivePlusMaterialEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/StyleSearchWindow.cs" />
     <Compile Include="Assets/FlutterUnityIntegration/Editor/SweetShellHelper.cs" />
     <Compile Include="Assets/ARLocation/Mapbox Routes/Editor/GameObjectMenuItems.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/PointsOfInterestSubLayerPropertiesDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/CameraBoundsTileProviderOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_ForwardGeocodeResource.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Directions.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/AtlasTemplateGenerator.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/TreeModel.cs" />
     <Compile Include="Assets/Devion Games/Curvy Text/Scripts/Editor/FreeformTool.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Compression.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/TreeViewWithTreeModel.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/ScriptableCreatorWindow.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/GeocodeAttributeSearchWindow.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/FeaturesSubLayerPropertiesDrawer.cs" />
     <Compile Include="Assets/ARLocation/Editor/ConditionalPropertyDrawer.cs" />
     <Compile Include="Assets/ARLocation/Editor/ARLocationConfigInspector.cs" />
     <Compile Include="Assets/ARLocation/Editor/GameObjectMenuItems.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/UnityLayerOptionsDrawer.cs" />
     <Compile Include="Assets/FlutterUnityIntegration/Editor/Build.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_BearingFilter.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/MapManagerEditor.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_DirectionResource.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_TileCover.cs" />
     <Compile Include="Assets/ARLocation/Editor/ARLocationProviderInspector.cs" />
     <Compile Include="Assets/Devion Games/Curvy Text/Scripts/Editor/CurvyTextInspector.cs" />
     <Compile Include="Assets/ARLocation/Editor/LocationPropertyDataDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/RangeTileProviderOptionsDrawer.cs" />
     <Compile Include="Assets/ARLocation/Mapbox Routes/Editor/RouteWaypointPropertyDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ModelingSectionDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Geocoder.cs" />
     <Compile Include="Assets/ARLocation/Editor/ARLocationManagerInspector.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_GeoCoordinate.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/TerrainSideWallOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Tile.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/FeatureSubLayerTreeView.cs" />
     <Compile Include="Assets/ARLocation/Editor/ARLocationEditorConfigManager.cs" />
     <Compile Include="Assets/Devion Games/Curvy Text/Scripts/Editor/BezierCurveInspector.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_TileResource.cs" />
     <Compile Include="Assets/ARLocation/Editor/OverrideAltitudeDataDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/LayerModifierEditor.cs" />
-    <Compile Include="Assets/Mapbox/Core/cheap-ruler-cs/Tests/Editor/MapboxUnitTests_CheapRulerCs.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/GeometryExtrusionOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PointsOfInterestSubLayerTreeView.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ImageryRasterOptionsDrawer.cs" />
     <Compile Include="Assets/ARLocation/Editor/ARLocationOrientationInspector.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/Build/Mapbox_iOS_build.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ElevationRequiredOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_Token.cs" />
     <Compile Include="Assets/ThirdPartyAssets/WoLfulus/LineEnding/Editor/FileMonitor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/BehaviorModifiersSectionDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/FeatureTreeElement.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ElevationLayerPropertiesDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/ScenesListEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/TreeElement.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MapLocationOptionsDrawer.cs" />
     <Compile Include="Assets/ARLocation/Editor/LocationPathInspector.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_VectorTile.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_TileJSON.cs" />
     <Compile Include="Assets/FlutterUnityIntegration/Editor/XCodePostBuild.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_LonLatToGeoCoordinateConverter.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/GeocodeAttributeDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/PrefabItemOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/GeometryMaterialOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/StyleSearchAttributeDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/FeatureBehaviourEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/UnitTests/MapboxUnitTests_CircularBuffer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/VectorFilterOptionsDrawer.cs" />
     <Compile Include="Assets/Devion Games/Curvy Text/Scripts/Editor/InsertTool.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/ModifierStackEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/MergedModifierStackEditor.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/SpawnPrefabOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PopupSelectionMenu.cs" />
     <Compile Include="Assets/ARLocation/Mapbox Routes/Editor/RouteSettingsPropertyDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/CoreVectorLayerPropertiesDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_SQLiteCache.cs" />
     <Compile Include="Assets/PrimitivePlus/Editor/PrimitivePlusMenuItems.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MapExtentOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/AddMonoBehavioursModifierDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/TreeElementUtility.cs" />
     <Compile Include="Assets/ARLocation/Editor/DefineSymbolsManager.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MapScalingOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_MapMatcher.cs" />
     <Compile Include="Assets/Devion Games/Module Manager/Editor/ModuleItem.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ElevationModificationOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/TerrainColliderOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_AngleSmoothing.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/LayerSourceOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/ScriptablePaletteEditor.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_CanonicalTileId.cs" />
     <Compile Include="Assets/ARLocation/Editor/DefineSymbols.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/MaterialListDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Core/mapbox-sdk-cs/Tests/UnitTests/Editor/MapboxUnitTests_ReverseGeocodeResource.cs" />
     <Compile Include="Assets/Devion Games/Curvy Text/Scripts/Editor/RemoveTool.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/PropertyDrawers/ColliderOptionsDrawer.cs" />
-    <Compile Include="Assets/Mapbox/Unity/Editor/ClearFileCache.cs" />
     <Reference Include="UnityEngine">
       <HintPath>/Applications/Unity/Hub/Editor/2022.3.62f2/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -441,14 +348,8 @@
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.nianticlabs.lightship@1f2596a5cd/Runtime/Telemetry/dep/Niantic.Protobuf.3.25.3.0/System.Runtime.CompilerServices.Unsafe.dll</HintPath>
     </Reference>
-    <Reference Include="Mapbox.VectorTile.Geometry">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.Geometry.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.YamlDotNet">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.unity.visualscripting@1.9.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.PbfReader">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.PbfReader.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Collections.LowLevel.ILSupport">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.unity.collections@1.2.4/Unity.Collections.LowLevel.ILSupport/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
@@ -477,9 +378,6 @@
     <Reference Include="DemiLib">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Demigiant/DemiLib/Core/DemiLib.dll</HintPath>
     </Reference>
-    <Reference Include="MapboxAccountsUnity">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/MapboxAccounts/net35/MapboxAccountsUnity.dll</HintPath>
-    </Reference>
     <Reference Include="GitHub.Logging">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/GitHub/Editor/GitHub.Logging.dll</HintPath>
     </Reference>
@@ -498,20 +396,11 @@
     <Reference Include="log4netPlastic">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.unity.collab-proxy@2.7.1/Lib/Editor/log4netPlastic.dll</HintPath>
     </Reference>
-    <Reference Include="Mapbox.Json">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.VisualScripting.IonicZip">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.unity.visualscripting@1.9.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll</HintPath>
     </Reference>
     <Reference Include="Serilog.Sinks.File">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Serilog.Sinks.File.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.IO.Compression">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.IO.Compression/net35/Mapbox.IO.Compression.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.VectorTileReader">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.VectorTileReader.dll</HintPath>
     </Reference>
     <Reference Include="GitHub.Api.45">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/GitHub/Editor/GitHub.Api.45.dll</HintPath>
@@ -524,9 +413,6 @@
     </Reference>
     <Reference Include="DOTween">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
-    </Reference>
-    <Reference Include="Mapbox.VectorTile.ExtensionMethods">
-      <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Assets/Mapbox/Core/Plugins/Mapbox/vector-tile-cs/net46/Mapbox.VectorTile.ExtensionMethods.dll</HintPath>
     </Reference>
     <Reference Include="Niantic.Protobuf">
       <HintPath>/Users/Kuz/Works/Bee/flutter-unity-view-widget/example/unity/SocialBeeAR/Library/PackageCache/com.nianticlabs.lightship@1f2596a5cd/Runtime/Telemetry/dep/Niantic.Protobuf.3.25.3.0/Niantic.Protobuf.dll</HintPath>
