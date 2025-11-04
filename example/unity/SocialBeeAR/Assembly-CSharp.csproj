@@ -133,8 +133,8 @@
     <Compile Include="Assets/GifPlayer/Scripts/GifProtocol/ExtraComment.cs" />
     <Compile Include="Assets/NatCorder/Examples/ReplayCam/ReplayCam.cs" />
     <Compile Include="Assets/NatCorder/Examples/WebCam/WebCam.cs" />
-    <Compile Include="Assets/ARLocation/Mapbox Routes/Scripts/AbstractRouteSignpost.cs" />
     <Compile Include="Assets/Scripts/Gradient.cs" />
+    <Compile Include="Assets/ARLocation/Mapbox Routes/Scripts/AbstractRouteSignpost.cs" />
     <Compile Include="Assets/Scripts/TestLoadImage.cs" />
     <Compile Include="Assets/MagicArsenal/Effects/Scripts/MagicBeamScript.cs" />
     <Compile Include="Assets/Scripts/Models/ARDefinition.cs" />
@@ -302,8 +302,8 @@
     <Compile Include="Assets/Scripts/GlobalConfig.cs" />
     <Compile Include="Assets/Scripts/ARDKIntegration/SBContextManager.cs" />
     <Compile Include="Assets/Scripts/Extensions/CoroutineExtensions.cs" />
-    <Compile Include="Assets/Scripts/PointsBarManager.cs" />
     <Compile Include="Assets/WanzyeeStudio/Scripts/Basic/Json/Matrix4x4Converter.cs" />
+    <Compile Include="Assets/Scripts/PointsBarManager.cs" />
     <Compile Include="Assets/Scripts/BeeBot Interaction Scripts/Intro.cs" />
     <Compile Include="Assets/ARLocation/Scripts/Math/LinearSpline.cs" />
     <Compile Include="Assets/ARLocation/Scripts/Utils/ShowHideSelfOnPointerClick.cs" />
