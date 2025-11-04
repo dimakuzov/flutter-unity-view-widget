@@ -16,6 +16,8 @@
 		97C147011CF9000F007C117D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97C146FF1CF9000F007C117D /* LaunchScreen.storyboard */; };
 		EC343AA02EB7916700B04ABC /* LightshipARDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC343A9F2EB7916700B04ABC /* LightshipARDK.framework */; };
 		EC343AA12EB7916700B04ABC /* LightshipARDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC343A9F2EB7916700B04ABC /* LightshipARDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		EC343AA32EB9348400B04ABC /* AVProVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC343AA22EB9348400B04ABC /* AVProVideo.framework */; };
+		EC343AA42EB9348400B04ABC /* AVProVideo.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EC343AA22EB9348400B04ABC /* AVProVideo.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ECA0F23F2EB4E02B00335A60 /* UnityFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD6F5C8825C8A42B00F1B679 /* UnityFramework.framework */; };
 		ECA0F2402EB4E02B00335A60 /* UnityFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = CD6F5C8825C8A42B00F1B679 /* UnityFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -28,6 +30,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				ECA0F2402EB4E02B00335A60 /* UnityFramework.framework in Embed Frameworks */,
+				EC343AA42EB9348400B04ABC /* AVProVideo.framework in Embed Frameworks */,
 				EC343AA12EB7916700B04ABC /* LightshipARDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
@@ -56,6 +59,7 @@
 		CD6F5C8825C8A42B00F1B679 /* UnityFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UnityFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC343A9C2EB690EF00B04ABC /* LightshipARDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LightshipARDK.framework; path = UnityLibrary/Frameworks/LightshipSDK/Runtime/Plugins/iOS/LightshipARDK.framework; sourceTree = "<group>"; };
 		EC343A9F2EB7916700B04ABC /* LightshipARDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LightshipARDK.framework; path = UnityLibrary/Frameworks/com.nianticlabs.lightship/Runtime/Plugins/iOS/LightshipARDK.framework; sourceTree = "<group>"; };
+		EC343AA22EB9348400B04ABC /* AVProVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVProVideo.framework; path = UnityLibrary/Frameworks/AVProVideo/Runtime/Plugins/iOS/AVProVideo.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,7 @@
 				ECA0F23F2EB4E02B00335A60 /* UnityFramework.framework in Frameworks */,
 				4E471AA3E4C8F3AAF4E74885 /* Pods_Runner.framework in Frameworks */,
 				EC343AA02EB7916700B04ABC /* LightshipARDK.framework in Frameworks */,
+				EC343AA32EB9348400B04ABC /* AVProVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +80,7 @@
 		5EE02D7D424978575F6CE6C1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC343AA22EB9348400B04ABC /* AVProVideo.framework */,
 				EC343A9C2EB690EF00B04ABC /* LightshipARDK.framework */,
 				EC343A9F2EB7916700B04ABC /* LightshipARDK.framework */,
 				CD6F5C8825C8A42B00F1B679 /* UnityFramework.framework */,
@@ -383,6 +389,7 @@
 					"$(PROJECT_DIR)/Flutter",
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/com.nianticlabs.lightship/Runtime/Plugins/iOS",
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/LightshipSDK/Runtime/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityLibrary/Frameworks/AVProVideo/Runtime/Plugins/iOS",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -523,6 +530,7 @@
 					"$(PROJECT_DIR)/Flutter",
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/com.nianticlabs.lightship/Runtime/Plugins/iOS",
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/LightshipSDK/Runtime/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityLibrary/Frameworks/AVProVideo/Runtime/Plugins/iOS",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -557,6 +565,7 @@
 					"$(PROJECT_DIR)/Flutter",
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/com.nianticlabs.lightship/Runtime/Plugins/iOS",
 					"$(PROJECT_DIR)/UnityLibrary/Frameworks/LightshipSDK/Runtime/Plugins/iOS",
+					"$(PROJECT_DIR)/UnityLibrary/Frameworks/AVProVideo/Runtime/Plugins/iOS",
 				);
 				INFOPLIST_FILE = Runner/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;

@@ -28,6 +28,8 @@ class _ApiScreenState extends State<ApiScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final double buttonSize = MediaQuery.of(context).size.shortestSide / 5.0;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('API Screen'),
@@ -61,17 +63,40 @@ class _ApiScreenState extends State<ApiScreen> {
                         padding: EdgeInsets.only(top: 20),
                         child: Text("Rotation speed:"),
                       ),
-                      Slider(
-                        onChanged: (value) {
-                          setState(() {
-                            _sliderValue = value;
-                          });
-                          setRotationSpeed(value.toString());
-                        },
-                        value: _sliderValue,
-                        min: 0,
-                        max: 20,
+                      SizedBox(
+                    width: buttonSize, 
+                    height: buttonSize, 
+                    child: ElevatedButton(
+                      onPressed: () => setFirstText("Debug First Method"),
+                      style: ElevatedButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12.0),
+                        ),
+                        backgroundColor: Colors.deepOrange,
+                        foregroundColor: Colors.white,
                       ),
+                      child: const Icon(Icons.bug_report, size: 30),
+                    ),
+                  ),
+                  const SizedBox(height: 20),
+
+                  SizedBox(
+                    width: buttonSize, 
+                    height: buttonSize, 
+                    child: ElevatedButton(
+                      onPressed: () => setSecondText("Debug Second Method"),
+                      style: ElevatedButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12.0),
+                        ),
+                        backgroundColor: Colors.green,
+                        foregroundColor: Colors.white,
+                      ),
+                      child: const Icon(Icons.bug_report_outlined, size: 30),
+                    ),
+                  ),
                       FittedBox(
                         child: Row(
                           mainAxisAlignment: MainAxisAlignment.spaceBetween,
@@ -137,6 +162,22 @@ class _ApiScreenState extends State<ApiScreen> {
           ],
         ),
       ),
+    );
+  }
+
+  void setFirstText(String s){
+    _unityWidgetController?.postMessage(
+      'NativeCall',
+      'SetFirstText',
+      s,
+    );
+  }
+
+  void setSecondText(String s){
+    _unityWidgetController?.postMessage(
+      'NativeCall',
+      'SetSecondText',
+      s,
     );
   }
 

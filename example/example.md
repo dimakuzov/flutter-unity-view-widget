@@ -35,6 +35,8 @@ class _UnityDemoScreenState extends State<UnityDemoScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final double buttonSize = MediaQuery.of(context).size.shortestSide / 5.0;
+
     return Scaffold(
       appBar: AppBar(
         title: const Text('Unity Flutter Demo'),
@@ -48,37 +50,49 @@ class _UnityDemoScreenState extends State<UnityDemoScreen> {
             onUnitySceneLoaded: onUnitySceneLoaded,
           ),
 
-          // Flutter UI Stacked on top of Unity to demo Flutter -> Unity interactions.
-          // On web this requires a PointerInterceptor widget.
           Positioned(
-            bottom: 0,
-            // <You need a PointerInterceptor here on web>
-            child: SafeArea(
-              child: Card(
-                elevation: 10,
-                child: Column(
-                  children: <Widget>[
-                    const Padding(
-                      padding: EdgeInsets.only(top: 20),
-                      child: Text("Rotation speed:"),
+              top: 30, 
+              left: 30, 
+              child: Column(
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  SizedBox(
+                    width: buttonSize, 
+                    height: buttonSize, 
+                    child: ElevatedButton(
+                      onPressed: () => setFirstText("Debug First Method"),
+                      style: ElevatedButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12.0),
+                        ),
+                        backgroundColor: Colors.deepOrange,
+                        foregroundColor: Colors.white,
+                      ),
+                      child: const Icon(Icons.bug_report, size: 30),
                     ),
-                    Slider(
-                      onChanged: (value) {
-                        setState(() {
-                          _sliderValue = value;
-                        });
-                        // Send value to Unity
-                        setRotationSpeed(value.toString());
-                      },
-                      value: _sliderValue,
-                      min: 0.0,
-                      max: 1.0,
+                  ),
+                  const SizedBox(height: 20),
+
+                  SizedBox(
+                    width: buttonSize, 
+                    height: buttonSize, 
+                    child: ElevatedButton(
+                      onPressed: () => setSecondText("Debug Second Method"),
+                      style: ElevatedButton.styleFrom(
+                        padding: EdgeInsets.zero,
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(12.0),
+                        ),
+                        backgroundColor: Colors.green,
+                        foregroundColor: Colors.white,
+                      ),
+                      child: const Icon(Icons.bug_report_outlined, size: 30),
                     ),
-                  ],
-                ),
+                  ),
+                ],
               ),
             ),
-          ),
         ],
       ),
     );
@@ -87,6 +101,22 @@ class _UnityDemoScreenState extends State<UnityDemoScreen> {
   // Callback that connects the created controller to the unity controller
   void onUnityCreated(UnityWidgetController controller) {
     _unityWidgetController = controller;
+  }
+
+  void setFirstText(String s){
+    _unityWidgetController?.postMessage(
+      'NativeCall',
+      'SetFirstText',
+      s,
+    );
+  }
+
+  void setSecondText(String s){
+    _unityWidgetController?.postMessage(
+      'NativeCall',
+      'SetSecondText',
+      s,
+    );
   }
 
   // Communcation from Flutter to Unity
@@ -102,6 +132,10 @@ class _UnityDemoScreenState extends State<UnityDemoScreen> {
   // Communication from Unity to Flutter
   void onUnityMessage(dynamic message) {
     print('Received message from unity: ${message.toString()}');
+  }
+
+  void endAR(){
+    print('method endAR() was called from unity');
   }
 
   // Communication from Unity when new scene is loaded to Flutter
