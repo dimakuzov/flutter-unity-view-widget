@@ -36,10 +36,10 @@ build/
 android/UnityLibrary/
 
 #example/
-example/unity/DemoApp/Builds/
-example/unity/DemoApp/Library/
-example/unity/DemoApp/Logs/
-example/unity/DemoApp/Temp/
+example/unity/SocialBeeAR/Builds/
+example/unity/SocialBeeAR/Library/
+example/unity/SocialBeeAR/Logs/
+example/unity/SocialBeeAR/Temp/
 
 # Android related
 **/android/**/gradle-wrapper.jar
